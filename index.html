@@ -26,9 +26,9 @@
 
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-link" href="#main">La Conferencia</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
                         <a class="nav-link" href="#speakers">Los Speakers</a>
                     </li>
@@ -36,10 +36,10 @@
                         <a class="nav-link" href="#placetime">El lugar y la Fecha</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#convierte-en-speaker">Conviertete en Speaker</a>
+                        <a class="nav-link" href="#auspiciadores">Auspiciadores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-platzi" href="#" data-target="#modalCompra" data-toggle="modal">Comprar Tickets</a>
+                        <a class="nav-link text-platzi" href="#">Inscribirse</a>
                     </li>
                 </ul>
             </div>
@@ -187,66 +187,8 @@
     
 
     <!-- /Lugar y Fecha-->
-
-    <!-- Conviertete Speaker-->
-
-    <section id="convierte-en-speaker" class="pt-2 pb-4">
-
-        <div class="container">
-            <div class="row">
-                <div class="col  text-center text-uppercase">
-                    <small>Convierte en un </small>
-                    <h2>SPEAKER</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col text-center">
-                    Anotate como speaker para dar una <abbr data-toggle="tooltip" title="Charlas de 5 minutos">charla ignite</abbr>. Cuentanos de que quieres hablar!
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col col-md-10 offset-md-1 pt-2 col-lg-8 offset-lg-2">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-12 col-md-6">
-                                <input type="text" class="form-control" placeholder="Nombre">
-                            </div>
-                            <div class="form-group col-12 col-md-6">
-                                <input type="text" class="form-control" placeholder="Apellido">
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="col">
-                                <textarea name="text" class="form-control form-control-lg" placeholder="Sobre que quieres hablar?"></textarea>
-                                <small class="form-text text-muted">
-                                    Recuerda incluir un titulo a tu <abbr data-toggle="tooltip" title="Lo ideal es que sea acorde al tema que quieres hablar">charla</abbr>
-                                </small>
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="col">
-                                <button type="button" class="btn btn-platzi btn-block">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </section>
-
-    <!-- /Conviertete Speaker-->
-
     <!-- Auspiciadores-->
-    <section id="speakers" class="mt-4">
+    <section id="auspiciadores" class="mt-4">
         <div class="container">
             <div class="row">
                 <div class="col text-center text-uppercase">
@@ -343,43 +285,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Modal -->
-    <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Comprar Tickets</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col">
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                    <div class="alert alert-warning" role="alert">
-                        Recibiras un correo de confirmacion si sales sorteado.
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger " data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-platzi">Comprar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- /Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
