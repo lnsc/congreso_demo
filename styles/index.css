@@ -64,3 +64,19 @@
     background-color: #353A40;
     color: white;
 }
+.top__container{
+    background-color: blue;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.top__img{
+    width: 100%;
+    height: 320px;
+}
+.img__ejes{
+    width: 110%;
+    height: 100%;
+}
+#img__help{
+    height: 105%;
+}
