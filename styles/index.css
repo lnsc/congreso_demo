@@ -80,3 +80,19 @@
 #img__help{
     height: 105%;
 }
+
+.card-img-top{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.img-card-gen{
+    height: 50%;
+    background-color: #f9f5f5;
+    overflow: hidden;
+}
+#auspiciadores .img-card-gen{
+    height: 70%;
+}
