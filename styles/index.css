@@ -17,20 +17,48 @@
 #footer__container{
     color: white;
 }
-
-#header img {
-    width: 80px
+#header {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease;
+    background-color: transparent;
 }
+#header img {
+    width: 60px
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #8e0000 !important;
+    transition: background-color 200ms linear;
+  }
+
+  #header .navbar-nav .nav-item .nav-link {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+  }
+  #header .navbar-nav .nav-item .nav-link.active {
+    color: #fff !important; 
+  }
+   @media (min-width: 992px) {
+
+    #header .navbar-nav .nav-item .nav-link {
+      color: rgba(255, 255, 255, 0.7);
+      padding: 0 1rem;
+    }
+    #header .navbar-nav .nav-item .nav-link:hover {
+      color: #fff;
+    }
+    #header .navbar-nav .nav-item:last-child .nav-link {
+      padding-right: 0;
+    }
+
+  } 
+
 #main .carousel-inner img {
-    max-height: 70vh;
+    max-height: 82vh;
     object-fit: cover;
     filter: grayscale(40%)
-}
-
-#carousel {
-    position: relative;
-    margin: 10px 10px 10px 10px;
-}
+} 
 
 #carousel .overlay {
     position: absolute;
@@ -45,7 +73,7 @@
 #carousel .overlay .container,
 #carousel .overlay .row {
     height: 100%;
-}
+} 
 
 .btn-platzi {
     background-color: #97c93e;
