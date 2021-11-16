@@ -124,3 +124,7 @@
 #auspiciadores .img-card-gen{
     height: 70%;
 }
+.back__container{
+    display: flex;
+    justify-content: center;
+}
